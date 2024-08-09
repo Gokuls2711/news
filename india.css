@@ -1,0 +1,143 @@
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .link {
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+  }
+  
+  .navbar .link li {
+    margin-right: 35px;
+  }
+  
+  .navbar .link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .navbar .link a:hover {
+    color: red;
+  }
+  
+  .logo .logo-link {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    gap: 8px;
+  }
+  
+  .img-1,
+  .img-2 {
+    width: 40px;
+  }
+  
+  .img-3 {
+    width: 60px;
+  }
+  
+  .img-4,
+  .img-5 {
+    width: 70px;
+  }
+  
+  .logo-link li a:hover {
+    color: red;
+  }
+  
+  .news-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 15px;
+  }
+  
+  .column-1,
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #756e6e;
+    width: 20%;
+    height: auto;
+  }
+  
+  .row {
+    padding: 5px;
+  }
+  
+  .row a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    text-align: justify;
+  }
+  
+  .row a:hover {
+    color: red;
+  }
+  
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #756e6e;
+    width: 58%;
+  }
+  
+  .column-2 .row {
+    display: flex;
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .info {
+    margin-top: 5%;
+    color: #6e6b6b;
+  }
+  
+  .column-2 a {
+    font-size: 17px;
+    font-weight: 900;
+  }
+  
+  .column-2 img {
+    width: 350px;
+    height: 300px;
+  }
+  
+  footer {
+    margin-top: 28px;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  footer:hover {
+    color: red;
+  }
